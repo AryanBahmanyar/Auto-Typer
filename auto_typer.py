@@ -2,7 +2,7 @@ import argparse
 import pyautogui as auto
 import time
 
-parser = argparse.ArgumentParser(description='This script reads contents of a text file and types it on the focused window')
+parser = argparse.ArgumentParser(description='This script reads contents of a text file and types it in on the focused window')
 parser.add_argument('path')
 parser.add_argument('-dt', '--delayTime', type=float, default=2.5)
 parser.add_argument('-i', '--interval', type=float, default=0.0125)
